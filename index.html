@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Sorteio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <div class="container-all">
+
+        <img src="assets/logo-sorteio.png" alt="logo" />
+
+        <h2> Sortear um número </h2>
+        
+        <div class="inputs-box">
+            <input type="number" placeholder="entre (min)" id="minimum-number" />
+            <input type="number" placeholder="e (max)" id="maximum-number" />
+        </div>
+        
+        <button onclick="raffle()"> Sortear </button>
+
+        <p id="drawn-number"> Número sorteado:  </p>
+
+    </div>
+
+</body>
+
+<script src="./scripts.js"> </script>
+
+</html>
